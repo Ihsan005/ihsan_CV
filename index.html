@@ -1,92 +1,1142 @@
+```html
 <!doctype html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Portfolio dan CV Ihsan Shadiq - Teknisi Handphone, Laptop, dan Teknologi Informasi"
-    />
-    <title>Ihsan Shadiq | Teknisi & IT</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="navbar">
-      <div class="nav-container">
-        <a href="#home" class="logo">IS<span>.</span></a>
-        <nav class="nav-menu" id="navMenu">
-          <a href="#home" class="active">Home</a>
-          <a href="#about">Tentang</a>
-          <a href="#experience">Pengalaman</a>
-          <a href="#skills">Skills</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#education">Pendidikan</a>
-          <a href="#contact">Kontak</a>
-        </nav>
-        <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <main>
-      <section class="hero" id="home">
-        <div class="hero-container">
-          <div class="hero-content">
-            <div class="availability">
-              <span class="status-dot"></span> Terbuka untuk peluang kerja
+  <meta
+    name="description"
+    content="Portfolio dan CV Ihsan Shadiq - Teknisi Handphone, Laptop, dan Teknologi Informasi"
+  />
+
+  <title>Ihsan Shadiq | Teknisi & IT</title>
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- =====================================================
+       NAVBAR
+  ====================================================== -->
+
+  <header class="navbar">
+
+    <div class="nav-container">
+
+      <a href="#home" class="logo">
+        IS<span>.</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+
+        <a href="#home" class="active">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#experience">Pengalaman</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#education">Pendidikan</a>
+        <a href="#contact">Kontak</a>
+
+      </nav>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Buka menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+  </header>
+
+
+  <main>
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <section class="hero" id="home">
+
+      <div class="hero-container">
+
+        <div class="hero-content">
+
+          <div class="availability">
+
+            <span class="status-dot"></span>
+
+            Terbuka untuk peluang kerja
+
+          </div>
+
+
+          <p class="hero-greeting">
+            Halo, saya
+          </p>
+
+
+          <h1>
+            Ihsan <span>Shadiq</span>
+          </h1>
+
+
+          <h2>
+            Teknisi Handphone & Laptop
+          </h2>
+
+
+          <p class="hero-description">
+            Teknisi perangkat IT dengan latar belakang Teknologi Rekayasa
+            Perangkat Lunak, berpengalaman dalam troubleshooting hardware,
+            software, desain, dan pengembangan aplikasi.
+          </p>
+
+
+          <div class="hero-buttons">
+
+            <a
+              href="#portfolio"
+              class="btn btn-primary"
+            >
+              Lihat Portfolio
+              <span>↗</span>
+            </a>
+
+
+            <a
+              href="#contact"
+              class="btn btn-outline"
+            >
+              Hubungi Saya
+            </a>
+
+          </div>
+
+
+          <!-- SOCIAL MEDIA -->
+
+          <div class="social-links">
+
+            <!-- EMAIL -->
+
+            <a
+              href="mailto:ihsanshadiq@gmail.com"
+              aria-label="Email"
+              title="Email"
+            >
+
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+
+                <path
+                  d="M3.75 5.75h16.5v12.5H3.75z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linejoin="round"
+                />
+
+                <path
+                  d="m4.5 6.5 7.5 6 7.5-6"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+
+              </svg>
+
+            </a>
+
+
+            <!-- WHATSAPP -->
+
+            <a
+              href="https://wa.me/6285357066568"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+              title="WhatsApp"
+            >
+
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+
+                <path
+                  d="M20 11.7a8 8 0 0 1-11.8 7L4 20l1.3-4A8 8 0 1 1 20 11.7Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+
+                <path
+                  d="M9 8.2c.2-.5.5-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.7c.1.2.1.4-.1.6l-.6.7c-.2.2-.2.4-.1.6.5.9 1.2 1.6 2.1 2.1.2.1.4.1.6-.1l.7-.6c.2-.2.4-.2.6-.1l1.7.7c.3.1.4.3.4.5v.5c0 .3 0 .6-.5.8-.5.2-1.1.3-1.7.2-1.1-.2-2.5-.9-3.8-2.2s-2-2.7-2.2-3.8c-.1-.4 0-.9.4-1.5Z"
+                  fill="currentColor"
+                />
+
+              </svg>
+
+            </a>
+
+
+            <!-- INSTAGRAM -->
+
+            <a
+              href="https://www.instagram.com/san.diq/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram san.diq"
+              title="Instagram"
+            >
+
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+
+                <rect
+                  x="3.5"
+                  y="3.5"
+                  width="17"
+                  height="17"
+                  rx="5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                />
+
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="4"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                />
+
+                <circle
+                  cx="17.6"
+                  cy="6.7"
+                  r="1.1"
+                  fill="currentColor"
+                />
+
+              </svg>
+
+            </a>
+
+
+            <!-- LINKEDIN -->
+
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              title="LinkedIn"
+            >
+
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+
+                <path
+                  d="M5.2 8.4h3v10h-3zM6.7 4.2a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4ZM10 8.4h2.9v1.4h.1a3.2 3.2 0 0 1 2.9-1.6c3.1 0 3.7 2 3.7 4.6v5.6h-3v-5c0-1.2 0-2.7-1.7-2.7s-2 1.3-2 2.6v5.1h-3z"
+                  fill="currentColor"
+                />
+
+              </svg>
+
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- PROFILE -->
+
+        <div class="hero-visual">
+
+          <div class="profile-card">
+
+            <div class="profile-image">
+
+              <img
+                src="foto.jpg"
+                alt="Foto profil Ihsan Shadiq"
+              />
+
             </div>
-            <p class="hero-greeting">Halo, saya</p>
-            <h1>Ihsan <span>Shadiq</span></h1>
-            <h2>Teknisi Handphone & Laptop</h2>
-            <p class="hero-description">
-              Teknisi perangkat IT dengan latar belakang Teknologi Rekayasa
-              Perangkat Lunak, berpengalaman dalam troubleshooting hardware,
-              software, desain, dan pengembangan aplikasi.
+
+
+            <div class="profile-info">
+
+              <h3>
+                Ihsan Shadiq
+              </h3>
+
+              <p>
+                Technician & IT
+              </p>
+
+            </div>
+
+
+            <div class="profile-line"></div>
+
+
+            <div class="profile-details">
+
+              <div>
+                <span>Location</span>
+                <strong>Indonesia</strong>
+              </div>
+
+              <div>
+                <span>Education</span>
+                <strong>D4 TRPL</strong>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="floating-card card-one">
+            <span>⚙</span>
+            Hardware
+          </div>
+
+
+          <div class="floating-card card-two">
+            <span>⌘</span>
+            Software
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="scroll-indicator">
+
+        <span></span>
+
+        Scroll untuk melihat lebih banyak
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         ABOUT
+    ====================================================== -->
+
+    <section class="section" id="about">
+
+      <div class="section-container">
+
+        <div class="section-heading">
+
+          <span class="section-number">
+            01
+          </span>
+
+          <div>
+
+            <p class="section-label">
+              PROFILE
             </p>
-            <div class="hero-buttons">
-              <a href="#portfolio" class="btn btn-primary"
-                >Lihat Portfolio <span>↗</span></a
-              >
-              <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+
+            <h2>
+              Tentang Saya
+            </h2>
+
+          </div>
+
+        </div>
+
+
+        <div class="about-grid">
+
+          <div class="about-text">
+
+            <p class="large-text">
+
+              Saya adalah lulusan
+              <strong>
+                D4 Teknologi Rekayasa Perangkat Lunak (TRPL)
+                Politeknik Negeri Padang
+              </strong>
+              dengan latar belakang pendidikan elektronika.
+
+            </p>
+
+
+            <p>
+
+              Memiliki pengalaman magang, teknisi, dan usaha mandiri
+              di bidang servis perangkat IT. Saya memiliki kemampuan
+              dalam troubleshooting perangkat keras dan perangkat lunak,
+              pemecahan masalah, serta pemahaman pengembangan perangkat lunak.
+
+            </p>
+
+
+            <p>
+
+              Terbiasa bekerja secara mandiri maupun dalam tim,
+              komunikatif, cepat beradaptasi, dan memiliki kemauan
+              belajar yang tinggi.
+
+            </p>
+
+          </div>
+
+
+          <div class="about-stats">
+
+            <div class="stat-card">
+              <strong>2+</strong>
+              <span>Pengalaman Magang</span>
             </div>
-            <div class="social-links">
-              <a
-                href="mailto:ihsanshadiq@gmail.com"
-                aria-label="Email"
-                title="Email"
-              >
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M3.75 5.75h16.5v12.5H3.75z"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.7"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="m4.5 6.5 7.5 6 7.5-6"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.7"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </a>
-              <a
-                href="https://wa.me/6285357066568"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="WhatsApp"
-                title="WhatsApp"
-                ><svg viewBox="0 0 24 24" aria-hidden="true">
+
+            <div class="stat-card">
+              <strong>D4</strong>
+              <span>Teknologi Rekayasa Perangkat Lunak</span>
+            </div>
+
+            <div class="stat-card">
+              <strong>IT</strong>
+              <span>Hardware & Software</span>
+            </div>
+
+            <div class="stat-card">
+              <strong>∞</strong>
+              <span>Semangat Belajar</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         EXPERIENCE
+    ====================================================== -->
+
+    <section
+      class="section section-dark"
+      id="experience"
+    >
+
+      <div class="section-container">
+
+        <div class="section-heading">
+
+          <span class="section-number">
+            02
+          </span>
+
+          <div>
+
+            <p class="section-label">
+              EXPERIENCE
+            </p>
+
+            <h2>
+              Pengalaman
+            </h2>
+
+          </div>
+
+        </div>
+
+
+        <div class="timeline">
+
+          <div class="timeline-item">
+
+            <div class="timeline-marker"></div>
+
+            <div class="timeline-date">
+              21 JAN 2019 — 28 SEP 2019
+            </div>
+
+            <div class="timeline-content">
+
+              <h3>
+                Mekanik
+              </h3>
+
+              <h4>
+                OtoZone Car Audio
+              </h4>
+
+              <p>
+
+                Melaksanakan kegiatan magang sebagai mekanik
+                dengan fokus pada instalasi, pemeriksaan,
+                troubleshooting, dan perbaikan perangkat
+                elektronik kendaraan.
+
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="timeline-item">
+
+            <div class="timeline-marker"></div>
+
+            <div class="timeline-date">
+              02 SEP 2024 — 30 DES 2024
+            </div>
+
+            <div class="timeline-content">
+
+              <h3>
+                UI/UX Designer
+              </h3>
+
+              <h4>
+                Qif Media
+              </h4>
+
+              <p>
+
+                Melaksanakan kegiatan magang di bidang UI/UX Design,
+                termasuk perancangan antarmuka, pembuatan desain website,
+                serta pengembangan pengalaman pengguna.
+
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SKILLS
+    ====================================================== -->
+
+    <section class="section" id="skills">
+
+      <div class="section-container">
+
+        <div class="section-heading">
+
+          <span class="section-number">
+            03
+          </span>
+
+          <div>
+
+            <p class="section-label">
+              EXPERTISE
+            </p>
+
+            <h2>
+              Skills
+            </h2>
+
+          </div>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              ⚙
+            </div>
+
+            <h3>
+              Hardware
+            </h3>
+
+            <p>
+
+              Troubleshooting dan perbaikan perangkat komputer,
+              laptop, handphone, serta perangkat elektronik.
+
+            </p>
+
+            <div class="skill-tags">
+
+              <span>Troubleshooting</span>
+              <span>Repair</span>
+              <span>Assembly</span>
+
+            </div>
+
+          </div>
+
+
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              ◈
+            </div>
+
+            <h3>
+              Software
+            </h3>
+
+            <p>
+
+              Pemahaman software dan pengembangan aplikasi
+              berbasis website, desktop, dan mobile.
+
+            </p>
+
+            <div class="skill-tags">
+
+              <span>Website</span>
+              <span>Desktop</span>
+              <span>Mobile</span>
+
+            </div>
+
+          </div>
+
+
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              ✦
+            </div>
+
+            <h3>
+              Design
+            </h3>
+
+            <p>
+
+              Memiliki pengalaman dalam desain UI/UX dan
+              pembuatan desain logo serta antarmuka website.
+
+            </p>
+
+            <div class="skill-tags">
+
+              <span>UI/UX</span>
+              <span>Logo</span>
+              <span>Web Design</span>
+
+            </div>
+
+          </div>
+
+
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              &lt;/&gt;
+            </div>
+
+            <h3>
+              Development
+            </h3>
+
+            <p>
+
+              Memahami konsep pengembangan perangkat lunak
+              untuk berbagai platform.
+
+            </p>
+
+            <div class="skill-tags">
+
+              <span>Web</span>
+              <span>Desktop</span>
+              <span>Android/iOS</span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         PORTFOLIO
+    ====================================================== -->
+
+    <section
+      class="section section-dark"
+      id="portfolio"
+    >
+
+      <div class="section-container">
+
+        <div class="section-heading">
+
+          <span class="section-number">
+            04
+          </span>
+
+          <div>
+
+            <p class="section-label">
+              SELECTED WORK
+            </p>
+
+            <h2>
+              Portfolio
+            </h2>
+
+          </div>
+
+        </div>
+
+
+        <div class="portfolio-grid">
+
+
+          <!-- =================================================
+               PORTFOLIO 01
+          ================================================== -->
+
+          <article class="project-card">
+
+            <div class="project-number">
+              01
+            </div>
+
+
+            <div class="project-image project-service">
+
+              <!--
+                PENTING:
+                File gambar harus berada di:
+                images/servis-printer.jpg
+              -->
+
+              <img
+                src="images/servis-printer.jpg"
+                alt="Tampilan website layanan servis printer"
+                loading="lazy"
+              />
+
+              <span>
+                WEBSITE
+              </span>
+
+            </div>
+
+
+            <div class="project-content">
+
+              <p class="project-category">
+                WEBSITE
+              </p>
+
+              <h3>
+                Website Layanan Servis Printer
+              </h3>
+
+              <p>
+
+                Website layanan servis printer yang dirancang
+                untuk memberikan informasi layanan dan memudahkan
+                pelanggan mendapatkan informasi mengenai servis.
+
+              </p>
+
+
+              <div class="project-tags">
+
+                <span>
+                  Web Design
+                </span>
+
+                <span>
+                  Development
+                </span>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- =================================================
+               PORTFOLIO 02
+          ================================================== -->
+
+          <article class="project-card">
+
+            <div class="project-number">
+              02
+            </div>
+
+
+            <div class="project-image project-clinic">
+
+              <!--
+                PENTING:
+                File gambar harus berada di:
+                images/klinik-gigi.jpg
+              -->
+
+              <img
+                src="images/klinik-gigi.jpg"
+                alt="Desain antarmuka website klinik dokter gigi"
+                loading="lazy"
+              />
+
+              <span>
+                UI/UX
+              </span>
+
+            </div>
+
+
+            <div class="project-content">
+
+              <p class="project-category">
+                UI/UX DESIGN
+              </p>
+
+              <h3>
+                Desain Website Klinik Dokter Gigi
+              </h3>
+
+              <p>
+
+                Konsep desain website klinik dokter gigi
+                dengan fokus pada tampilan profesional,
+                informasi layanan, dan pengalaman pengguna.
+
+              </p>
+
+
+              <div class="project-tags">
+
+                <span>
+                  UI/UX
+                </span>
+
+                <span>
+                  Prototype
+                </span>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- =================================================
+               PORTFOLIO 03
+          ================================================== -->
+
+          <article class="project-card">
+
+            <div class="project-number">
+              03
+            </div>
+
+
+            <div class="project-image project-pc">
+
+              <!--
+                PENTING:
+                File gambar harus berada di:
+                images/rakit-komputer.jpg
+              -->
+
+              <img
+                src="images/rakit-komputer.jpg"
+                alt="Dokumentasi perakitan komputer"
+                loading="lazy"
+              />
+
+              <span>
+                HARDWARE
+              </span>
+
+            </div>
+
+
+            <div class="project-content">
+
+              <p class="project-category">
+                HARDWARE
+              </p>
+
+              <h3>
+                Merakit Komputer
+              </h3>
+
+              <p>
+
+                Perakitan komputer berdasarkan kebutuhan pengguna,
+                pemilihan komponen, instalasi, konfigurasi,
+                dan pengujian sistem.
+
+              </p>
+
+
+              <div class="project-tags">
+
+                <span>
+                  PC Assembly
+                </span>
+
+                <span>
+                  Troubleshooting
+                </span>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         EDUCATION
+    ====================================================== -->
+
+    <section class="section" id="education">
+
+      <div class="section-container">
+
+        <div class="section-heading">
+
+          <span class="section-number">
+            05
+          </span>
+
+          <div>
+
+            <p class="section-label">
+              EDUCATION
+            </p>
+
+            <h2>
+              Pendidikan
+            </h2>
+
+          </div>
+
+        </div>
+
+
+        <div class="education-grid">
+
+
+          <div class="education-card">
+
+            <div class="education-year">
+              2017 — 2020
+            </div>
+
+            <div>
+
+              <p class="education-type">
+                SEKOLAH MENENGAH KEJURUAN
+              </p>
+
+              <h3>
+                SMK NEGERI 1 PADANG
+              </h3>
+
+              <p>
+                Jurusan Teknik Elektronika
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="education-card">
+
+            <div class="education-year">
+              2020 — 2026
+            </div>
+
+            <div>
+
+              <p class="education-type">
+                DIPLOMA 4
+              </p>
+
+              <h3>
+                POLITEKNIK NEGERI PADANG
+              </h3>
+
+              <p>
+                Teknologi Rekayasa Perangkat Lunak (TRPL)
+              </p>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CONTACT
+    ====================================================== -->
+
+    <section
+      class="section contact-section section-dark"
+      id="contact"
+    >
+
+      <div class="section-container">
+
+        <div class="contact-wrapper">
+
+
+          <div class="contact-intro">
+
+            <p class="section-label">
+              LET'S CONNECT
+            </p>
+
+            <h2>
+              Mari bekerja
+              <span>bersama.</span>
+            </h2>
+
+            <p>
+
+              Jika Anda memiliki proyek, peluang kerja,
+              atau ingin berdiskusi mengenai teknologi dan IT,
+              jangan ragu untuk menghubungi saya.
+
+            </p>
+
+          </div>
+
+
+          <div class="contact-info">
+
+
+            <!-- EMAIL -->
+
+            <a
+              href="mailto:ihsanshadiq@gmail.com"
+              class="contact-item"
+            >
+
+              <div class="contact-icon">
+
+                ✉
+
+              </div>
+
+
+              <div>
+
+                <span>
+                  Email
+                </span>
+
+                <strong>
+                  ihsanshadiq@gmail.com
+                </strong>
+
+              </div>
+
+
+              <span class="contact-arrow">
+                ↗
+              </span>
+
+            </a>
+
+
+
+            <!-- WHATSAPP -->
+
+            <a
+              href="https://wa.me/6285357066568"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-item"
+            >
+
+              <div class="contact-icon">
+
+                <svg
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+
                   <path
                     d="M20 11.7a8 8 0 0 1-11.8 7L4 20l1.3-4A8 8 0 1 1 20 11.7Z"
                     fill="none"
@@ -95,18 +1145,55 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
+
                   <path
                     d="M9 8.2c.2-.5.5-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.7c.1.2.1.4-.1.6l-.6.7c-.2.2-.2.4-.1.6.5.9 1.2 1.6 2.1 2.1.2.1.4.1.6-.1l.7-.6c.2-.2.4-.2.6-.1l1.7.7c.3.1.4.3.4.5v.5c0 .3 0 .6-.5.8-.5.2-1.1.3-1.7.2-1.1-.2-2.5-.9-3.8-2.2s-2-2.7-2.2-3.8c-.1-.4 0-.9.4-1.5Z"
                     fill="currentColor"
-                  /></svg
-              ></a>
-              <a
-                href="https://www.instagram.com/san.diq/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram san.diq"
-                title="Instagram"
-                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  />
+
+                </svg>
+
+              </div>
+
+
+              <div>
+
+                <span>
+                  WhatsApp
+                </span>
+
+                <strong>
+                  0853 5706 6568
+                </strong>
+
+              </div>
+
+
+              <span class="contact-arrow">
+                ↗
+              </span>
+
+            </a>
+
+
+
+            <!-- INSTAGRAM -->
+
+            <a
+              href="https://www.instagram.com/san.diq/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-item"
+              aria-label="Instagram san.diq"
+            >
+
+              <div class="contact-icon">
+
+                <svg
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+
                   <rect
                     x="3.5"
                     y="3.5"
@@ -117,6 +1204,7 @@
                     stroke="currentColor"
                     stroke-width="1.8"
                   />
+
                   <circle
                     cx="12"
                     cy="12"
@@ -125,393 +1213,91 @@
                     stroke="currentColor"
                     stroke-width="1.8"
                   />
-                  <circle cx="17.6" cy="6.7" r="1.1" fill="currentColor" /></svg
-              ></a>
-              <a
-                href="https://www.linkedin.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="LinkedIn"
-                title="LinkedIn"
-                ><svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M5.2 8.4h3v10h-3zM6.7 4.2a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4ZM10 8.4h2.9v1.4h.1a3.2 3.2 0 0 1 2.9-1.6c3.1 0 3.7 2 3.7 4.6v5.6h-3v-5c0-1.2 0-2.7-1.7-2.7s-2 1.3-2 2.6v5.1h-3z"
+
+                  <circle
+                    cx="17.6"
+                    cy="6.7"
+                    r="1.1"
                     fill="currentColor"
-                  /></svg
-              ></a>
-            </div>
-          </div>
+                  />
 
-          <div class="hero-visual">
-            <div class="profile-card">
-              <div class="profile-image">
-                <img src="foto.jpg" alt="Foto profil Ihsan Shadiq" />
-              </div>
-              <div class="profile-info">
-                <h3>Ihsan Shadiq</h3>
-                <p>Technician & IT</p>
-              </div>
-              <div class="profile-line"></div>
-              <div class="profile-details">
-                <div><span>Location</span><strong>Indonesia</strong></div>
-                <div><span>Education</span><strong>D4 TRPL</strong></div>
-              </div>
-            </div>
-            <div class="floating-card card-one"><span>⚙</span> Hardware</div>
-            <div class="floating-card card-two"><span>⌘</span> Software</div>
-          </div>
-        </div>
-        <div class="scroll-indicator">
-          <span></span> Scroll untuk melihat lebih banyak
-        </div>
-      </section>
+                </svg>
 
-      <section class="section" id="about">
-        <div class="section-container">
-          <div class="section-heading">
-            <span class="section-number">01</span>
-            <div>
-              <p class="section-label">PROFILE</p>
-              <h2>Tentang Saya</h2>
-            </div>
-          </div>
-          <div class="about-grid">
-            <div class="about-text">
-              <p class="large-text">
-                Saya adalah lulusan
-                <strong
-                  >D4 Teknologi Rekayasa Perangkat Lunak (TRPL) Politeknik
-                  Negeri Padang</strong
-                >
-                dengan latar belakang pendidikan elektronika.
-              </p>
-              <p>
-                Memiliki pengalaman magang, teknisi, dan usaha mandiri di bidang
-                servis perangkat IT. Saya memiliki kemampuan dalam
-                troubleshooting perangkat keras dan perangkat lunak, pemecahan
-                masalah, serta pemahaman pengembangan perangkat lunak.
-              </p>
-              <p>
-                Terbiasa bekerja secara mandiri maupun dalam tim, komunikatif,
-                cepat beradaptasi, dan memiliki kemauan belajar yang tinggi.
-              </p>
-            </div>
-            <div class="about-stats">
-              <div class="stat-card">
-                <strong>2+</strong><span>Pengalaman Magang</span>
               </div>
-              <div class="stat-card">
-                <strong>D4</strong
-                ><span>Teknologi Rekayasa Perangkat Lunak</span>
-              </div>
-              <div class="stat-card">
-                <strong>IT</strong><span>Hardware & Software</span>
-              </div>
-              <div class="stat-card">
-                <strong>∞</strong><span>Semangat Belajar</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section class="section section-dark" id="experience">
-        <div class="section-container">
-          <div class="section-heading">
-            <span class="section-number">02</span>
-            <div>
-              <p class="section-label">EXPERIENCE</p>
-              <h2>Pengalaman</h2>
-            </div>
-          </div>
-          <div class="timeline">
-            <div class="timeline-item">
-              <div class="timeline-marker"></div>
-              <div class="timeline-date">21 JAN 2019 — 28 SEP 2019</div>
-              <div class="timeline-content">
-                <h3>Mekanik</h3>
-                <h4>OtoZone Car Audio</h4>
-                <p>
-                  Melaksanakan kegiatan magang sebagai mekanik dengan fokus pada
-                  instalasi, pemeriksaan, troubleshooting, dan perbaikan
-                  perangkat elektronik kendaraan.
-                </p>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <div class="timeline-marker"></div>
-              <div class="timeline-date">02 SEP 2024 — 30 DES 2024</div>
-              <div class="timeline-content">
-                <h3>UI/UX Designer</h3>
-                <h4>Qif Media</h4>
-                <p>
-                  Melaksanakan kegiatan magang di bidang UI/UX Design, termasuk
-                  perancangan antarmuka, pembuatan desain website, serta
-                  pengembangan pengalaman pengguna.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section class="section" id="skills">
-        <div class="section-container">
-          <div class="section-heading">
-            <span class="section-number">03</span>
-            <div>
-              <p class="section-label">EXPERTISE</p>
-              <h2>Skills</h2>
-            </div>
-          </div>
-          <div class="skills-grid">
-            <div class="skill-card">
-              <div class="skill-icon">⚙</div>
-              <h3>Hardware</h3>
-              <p>
-                Troubleshooting dan perbaikan perangkat komputer, laptop,
-                handphone, serta perangkat elektronik.
-              </p>
-              <div class="skill-tags">
-                <span>Troubleshooting</span><span>Repair</span
-                ><span>Assembly</span>
-              </div>
-            </div>
-            <div class="skill-card">
-              <div class="skill-icon">◈</div>
-              <h3>Software</h3>
-              <p>
-                Pemahaman software dan pengembangan aplikasi berbasis website,
-                desktop, dan mobile.
-              </p>
-              <div class="skill-tags">
-                <span>Website</span><span>Desktop</span><span>Mobile</span>
-              </div>
-            </div>
-            <div class="skill-card">
-              <div class="skill-icon">✦</div>
-              <h3>Design</h3>
-              <p>
-                Memiliki pengalaman dalam desain UI/UX dan pembuatan desain logo
-                serta antarmuka website.
-              </p>
-              <div class="skill-tags">
-                <span>UI/UX</span><span>Logo</span><span>Web Design</span>
-              </div>
-            </div>
-            <div class="skill-card">
-              <div class="skill-icon">&lt;/&gt;</div>
-              <h3>Development</h3>
-              <p>
-                Memahami konsep pengembangan perangkat lunak untuk berbagai
-                platform.
-              </p>
-              <div class="skill-tags">
-                <span>Web</span><span>Desktop</span><span>Android/iOS</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-dark" id="portfolio">
-        <div class="section-container">
-          <div class="section-heading">
-            <span class="section-number">04</span>
-            <div>
-              <p class="section-label">SELECTED WORK</p>
-              <h2>Portfolio</h2>
-            </div>
-          </div>
-          <div class="portfolio-grid">
-            <article class="project-card">
-              <div class="project-number">01</div>
-              <div class="project-image project-service">
-                <img
-                  src="images/servis-printer.jpg"
-                  alt="Tampilan website layanan servis printer"
-                  loading="lazy"
-                /><span>WEBSITE</span>
-              </div>
-              <div class="project-content">
-                <p class="project-category">WEBSITE</p>
-                <h3>Website Layanan Servis Printer</h3>
-                <p>
-                  Website layanan servis printer yang dirancang untuk memberikan
-                  informasi layanan dan memudahkan pelanggan mendapatkan
-                  informasi mengenai servis.
-                </p>
-                <div class="project-tags">
-                  <span>Web Design</span><span>Development</span>
-                </div>
-              </div>
-            </article>
-            <article class="project-card">
-              <div class="project-number">02</div>
-              <div class="project-image project-clinic">
-                <img
-                  src="images/klinik-gigi.jpg"
-                  alt="Desain antarmuka website klinik dokter gigi"
-                  loading="lazy"
-                /><span>UI/UX</span>
-              </div>
-              <div class="project-content">
-                <p class="project-category">UI/UX DESIGN</p>
-                <h3>Desain Website Klinik Dokter Gigi</h3>
-                <p>
-                  Konsep desain website klinik dokter gigi dengan fokus pada
-                  tampilan profesional, informasi layanan, dan pengalaman
-                  pengguna.
-                </p>
-                <div class="project-tags">
-                  <span>UI/UX</span><span>Prototype</span>
-                </div>
-              </div>
-            </article>
-            <article class="project-card">
-              <div class="project-number">03</div>
-              <div class="project-image project-pc">
-                <img
-                  src="images/rakit-komputer.jpg"
-                  alt="Dokumentasi perakitan komputer"
-                  loading="lazy"
-                /><span>HARDWARE</span>
-              </div>
-              <div class="project-content">
-                <p class="project-category">HARDWARE</p>
-                <h3>Merakit Komputer</h3>
-                <p>
-                  Perakitan komputer berdasarkan kebutuhan pengguna, pemilihan
-                  komponen, instalasi, konfigurasi, dan pengujian sistem.
-                </p>
-                <div class="project-tags">
-                  <span>PC Assembly</span><span>Troubleshooting</span>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="education">
-        <div class="section-container">
-          <div class="section-heading">
-            <span class="section-number">05</span>
-            <div>
-              <p class="section-label">EDUCATION</p>
-              <h2>Pendidikan</h2>
-            </div>
-          </div>
-          <div class="education-grid">
-            <div class="education-card">
-              <div class="education-year">2017 — 2020</div>
               <div>
-                <p class="education-type">SEKOLAH MENENGAH KEJURUAN</p>
-                <h3>SMK NEGERI 1 PADANG</h3>
-                <p>Jurusan Teknik Elektronika</p>
-              </div>
-            </div>
-            <div class="education-card">
-              <div class="education-year">2020 — 2026</div>
-              <div>
-                <p class="education-type">DIPLOMA 4</p>
-                <h3>POLITEKNIK NEGERI PADANG</h3>
-                <p>Teknologi Rekayasa Perangkat Lunak (TRPL)</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section class="section contact-section section-dark" id="contact">
-        <div class="section-container">
-          <div class="contact-wrapper">
-            <div class="contact-intro">
-              <p class="section-label">LET'S CONNECT</p>
-              <h2>Mari bekerja <span>bersama.</span></h2>
-              <p>
-                Jika Anda memiliki proyek, peluang kerja, atau ingin berdiskusi
-                mengenai teknologi dan IT, jangan ragu untuk menghubungi saya.
-              </p>
-            </div>
-            <div class="contact-info">
-              <a href="mailto:ihsanshadiq@gmail.com" class="contact-item"
-                ><div class="contact-icon">✉</div>
-                <div>
-                  <span>Email</span><strong>ihsanshadiq@gmail.com</strong>
-                </div>
-                <span class="contact-arrow">↗</span></a
-              >
-              <a
-                href="https://wa.me/6285357066568"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="contact-item"
-                ><div class="contact-icon">
-                  <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <path
-                      d="M20 11.7a8 8 0 0 1-11.8 7L4 20l1.3-4A8 8 0 1 1 20 11.7Z"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="1.7"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M9 8.2c.2-.5.5-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.7c.1.2.1.4-.1.6l-.6.7c-.2.2-.2.4-.1.6.5.9 1.2 1.6 2.1 2.1.2.1.4.1.6-.1l.7-.6c.2-.2.4-.2.6-.1l1.7.7c.3.1.4.3.4.5v.5c0 .3 0 .6-.5.8-.5.2-1.1.3-1.7.2-1.1-.2-2.5-.9-3.8-2.2s-2-2.7-2.2-3.8c-.1-.4 0-.9.4-1.5Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </div>
-                <div><span>WhatsApp</span><strong>0853 5706 6568</strong></div>
-                <span class="contact-arrow">↗</span></a
-              >
-              <a
-                href="https://www.instagram.com/san.diq/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="contact-item"
-                aria-label="Instagram san.diq"
-                ><div class="contact-icon">
-                  <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <rect
-                      x="3.5"
-                      y="3.5"
-                      width="17"
-                      height="17"
-                      rx="5"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="1.8"
-                    />
-                    <circle
-                      cx="12"
-                      cy="12"
-                      r="4"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="1.8"
-                    />
-                    <circle cx="17.6" cy="6.7" r="1.1" fill="currentColor" />
-                  </svg>
-                </div>
-                <div><span>Instagram</span><strong>@san.diq</strong></div>
-                <span class="contact-arrow">↗</span></a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+                <span>
+                  Instagram
+                </span>
 
-    <footer>
-      <div class="footer-container">
-        <a href="#home" class="logo">IS<span>.</span></a>
-        <p>© <span id="year"></span> Ihsan Shadiq. All rights reserved.</p>
-        <a href="#home" class="back-top">↑</a>
+                <strong>
+                  @san.diq
+                </strong>
+
+              </div>
+
+
+              <span class="contact-arrow">
+                ↗
+              </span>
+
+            </a>
+
+
+          </div>
+
+        </div>
+
       </div>
-    </footer>
 
-    <script src="script.js"></script>
-  </body>
+    </section>
+
+  </main>
+
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer>
+
+    <div class="footer-container">
+
+      <a
+        href="#home"
+        class="logo"
+      >
+        IS<span>.</span>
+      </a>
+
+
+      <p>
+        © <span id="year"></span>
+        Ihsan Shadiq.
+        All rights reserved.
+      </p>
+
+
+      <a
+        href="#home"
+        class="back-top"
+      >
+        ↑
+      </a>
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- JAVASCRIPT -->
+
+  <script src="script.js"></script>
+
+</body>
 </html>
+```
